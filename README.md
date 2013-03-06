@@ -33,7 +33,7 @@ Your HTML should be layed out similar to this, with the class "jackbox" added fo
 
 ## Refernce
 If you are to use this plugin, please credit me by adding the following text with the plugin:
-/*
+"/*
  * jQuery Image Gallery Plugin 2.5
  * https://github.com/.....
  *
@@ -41,4 +41,4 @@ If you are to use this plugin, please credit me by adding the following text wit
  * https://bradshaw-design.co.nz
  *
  * Please credit me :)
- */
+ */"

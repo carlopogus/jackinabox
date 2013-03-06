@@ -36,10 +36,10 @@ If you are to use this plugin, please credit me by adding the following text in 
 
 
  * jQuery Image Gallery Plugin 2.5
- * "https://github.com/carlopogus/jackinabox"
+ * https://github.com/carlopogus/jackinabox
  *
  * Copyright 2013, Carl Bradshaw
- * "https://bradshaw-design.co.nz"
+ * https://bradshaw-design.co.nz
  *
  * Please credit me :)
 

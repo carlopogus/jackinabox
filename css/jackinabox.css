@@ -1,0 +1,127 @@
+/*
+ * jQuery Image Gallery Plugin 2.5
+ * https://github.com/.....
+ *
+ * Copyright 2013, Carl Bradshaw
+ * https://bradshaw-design.co.nz
+ *
+ * Please credit me :)
+ */
+
+.loading {
+background-image:url(../images/loading.gif);
+width:60px;
+height:60px;
+background-repeat:no-repeat;
+position:absolute;
+margin:auto;
+left:0;
+right:0;
+top:0;
+bottom:0
+}
+
+.caption {
+width:100%;
+margin:0;
+text-align:center;
+position:absolute;
+background-color:#fff;
+border:6px solid #fff;
+left:-6px;
+box-shadow:3px 3px 5px rgba(0,0,0,.5)
+}
+
+.images {
+width:auto;
+margin:0 auto;
+position:fixed;
+z-index:12;
+box-shadow:2px 2px 6px rgba(0,0,0,.5);
+border:6px solid #fff;
+background-color:#fff
+}
+
+.images img {
+display:block;
+position:relative;
+z-index:12
+}
+
+.shadow {
+width:100%;
+height:48px;
+background-image:url(../images/shadow.png);
+position:absolute;
+bottom:-48px;
+left:0
+}
+
+.imageswrapper {
+border:10px solid blue
+}
+
+.thumbs {
+width:86.67%;
+margin:50px auto;
+background-color:#bfbdb1;
+padding:20px 20px 0;
+border-radius:10px;
+position:relative
+}
+
+.thumbs img {
+float:left;
+margin:0 20px 20px 0;
+box-shadow:3px 3px 3px rgba(0,0,0,.3)
+}
+
+.thumbs a:nth-child(5n+5) img {
+margin-right:0
+}
+
+.thumbs img:hover {
+cursor:pointer
+}
+
+.prev-btn,.next-btn {
+position:absolute;
+width:50px;
+height:60px;
+z-index:10
+}
+
+.prev-btn:hover,.next-btn:hover {
+cursor:pointer
+}
+
+.next-btn {
+background:url(../images/next2.png) no-repeat top left;
+right:0
+}
+
+.prev-btn {
+background:url(../images/prev2.png) no-repeat top left;
+left:0
+}
+
+.background {
+width:100%;
+height:100%;
+position:fixed;
+z-index:10;
+background:-moz-radial-gradient(center,ellipse cover,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+/* FF3.6+ */
+background:-webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0.65)));
+/* Chrome,Safari4+ */
+background:-webkit-radial-gradient(center,ellipse cover,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+/* Chrome10+,Safari5.1+ */
+background:-o-radial-gradient(center,ellipse cover,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+/* Opera 12+ */
+background:-ms-radial-gradient(center,ellipse cover,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+/* IE10+ */
+background:radial-gradient(ellipse at center,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+/* W3C */
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#a6000000',GradientType=1)
+/* IE6-9 fallback on horizontal gradient */
+}

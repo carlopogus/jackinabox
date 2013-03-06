@@ -7,7 +7,7 @@
 The Jackinabox plugin attaches a click event handler for all child elements of a container:
 
 ```js
-$('.gallery').jackinabox();
+$('.thumbs').jackinabox();
 ```
 Your HTML should be layed out similar to this, with the class "jackbox" added for all "<a>" child elements of the container:
 

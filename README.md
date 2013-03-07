@@ -1,7 +1,7 @@
 # Jackinabox image gallery jQuery plugin
 
 ## Demo
-[Jackinabox Demo](http://bradshaw-design.co.nz/)
+[Jackinabox Demo](http://bradshaw-design.co.nz/projects/jackinabox)
 
 ## Description & Usage
 The Jackinabox plugin attaches a click event handler for all child elements of a container:
